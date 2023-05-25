@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>4Service</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container _container">
+          <a class="header__logo">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <div class="header__menu menu">
+            <div class="menu__item">
+              <a href="" class="menu__link">що це</a>
+            </div>
+            <div class="menu__item">
+              <a href="" class="menu__link">для кого</a>
+            </div>
+            <div class="menu__item">
+              <a href="" class="menu__link">переваги</a>
+            </div>
+            <div class="menu__item">
+              <a href="" class="menu__link">можливості</a>
+            </div>
+            <div class="menu__item">
+              <a id='form' href="#sendForm" class="menu__link magenta">уточнити деталі</a>
+            </div>
+            <div class="menu__button">
+              <a id='form' href="#sendForm" class="menu__button-link">замовити послугу</a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <div class="_container">
+            <div class="intro__container">
+              <div class="intro__text1 absolute-text">Дзвоню сам</div>
+              <div class="intro__text2 absolute-text">Приймаю дзвінки</div>
+              <div class="intro__text3 absolute-text">
+                Слухаю й аналізую інші дзвінки
+              </div>
+              <div class="intro__subtitle">
+                EMET - РОБОТ-ОПЕРАТОР. КОМУНІКАЦІЇ НОВОГО ПОКОЛІННЯ
+              </div>
+              <div class="intro__description">
+                Emet поговорить із клієнтом, автоматично зафіксує інформацію,
+                сформує звіт та передасть відповідальному співробітнику на
+                обробку у готовому вигляді
+              </div>
+              <div class="intro__button">
+                <a href="#sendForm" class="intro__button-link">замовити послугу</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="how-use">
+          <div class="_container">
+            <div class="how-use__subtitle">
+              як використовувати <span></span>
+            </div>
+            <div class="how-use__content">
+              <div class="how-use__list">
+                <div class="how-use__title">
+                  система EMET дозволяє повністю імітувати людину у телефонних
+                  розмовах
+                </div>
+                <ul>
+                  <li>Робот звільняє операторів для складніших завдань</li>
+                  <li>
+                    EMET миттєво масштабується під ваші потреби. На відміну від
+                    операторів, він не обідає/не хворіє/не ходить у відпустку, а
+                    найм та навчання йому не потрібно – все, що потрібно, він
+                    вже має
+                  </li>
+                  <li>
+                    Робот не робить помилок. Він завжди правильно відпрацює
+                    закладений у нього скрипт
+                  </li>
+                  <li>
+                    Не злиться і не нервує. 5 спроб або 10 – він виконає та
+                    повторить все, що потрібно
+                  </li>
+                  <li>
+                    EMET кмітливий – він може говорити цифри та дати, вулиці та
+                    імена та читати прізвища. А ще він вміє розуміти та
+                    запам’ятовувати відповіді!
+                  </li>
+                  <li>
+                    Завдяки точній транскрибації голосу в текст, ви зможете
+                    вирішити багато завдань бізнесу
+                  </li>
+                </ul>
+              </div>
+              <div class="how-use__image">
+                <img src="./img/robo.png" alt="how-use" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="examples">
+          <div class="_container">
+            <div class="examples__container">
+              <div class="examples__subtitle">приклад застосування Emet</div>
+              <div class="examples__description">
+                клієнти, які спілкуються з EMET’ом,
+                <span class="magenta">не можуть відрізнити</span> його
+                <span class="mint">від живого оператора</span>
+              </div>
+              <div class="examples__player"></div>
+            </div>
+          </div>
+        </section>
+        <section class="application">
+          <div class="_container">
+            <div class="application__subtitle">
+              області застосування EMET <span></span>
+            </div>
+            <div class="application__content">
+              <div class="application__description">
+                <span class="magenta">ЕМЕТ.</span> Система-робот із високим
+                рівнем «людяності» з легкістю
+                <span class="mint">розвантажить або замінить</span> операторів
+                Call-центру допоможе вам
+                <span class="magenta">проконтролювати та проаналізувати</span>
+                роботу операторів
+              </div>
+            </div>
+            <div class="application__cards cards">
+              <div class="cards__wrapper">
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/phone.png" alt="phone" />
+                  </div>
+                  <div class="cards__title">
+                    ПРИЙМАННЯ ЗАМОВЛЕНЬ або ПРОДАЖІ
+                  </div>
+                  <div class="cards__description">
+                    Ви можете автоматизувати холодні дзвінки або отримання
+                    замовлень, доручивши додзвон та первинну пропозицію ЕМЕТУ
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/ear.png" alt="ear" />
+                  </div>
+                  <div class="cards__title">
+                    АКТУАЛІЗАЦІЯ ДАНИХ І ДОВІДКА, ПІДТРИМКА КЛІЄНТІВ
+                  </div>
+                  <div class="cards__description">
+                    Ці завдання вирішуються за допомогою розпізнавання голосу. У
+                    будь-якому часовому поясі робота завжди виконана «на
+                    відмінно». База відповідей доступна до розвантаження у
+                    зручному форматі
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/control.png" alt="control" />
+                  </div>
+                  <div class="cards__title">
+                    КОНТРОЛЬ І АНАЛІЗ РОБОТИ ЖИВИХ ОПЕРАТОРІВ
+                  </div>
+                  <div class="cards__description">
+                    В Call-центр, відділі продажу, технічній підтримці, відділі
+                    контролю якості чи службі безпеки
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/rupor.png" alt="rupor" />
+                  </div>
+                  <div class="cards__title">ІНФОРМУВАННЯ або ЗАЛУЧЕННЯ</div>
+                  <div class="cards__description">
+                    Сповіщення про заборгованість, інформування про нові
+                    продукти або зміну в розкладі роботи – та робота з якою
+                    робот справляється найкраще
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/mail.png" alt="mail" />
+                  </div>
+                  <div class="cards__title">РОЗПІЗНАННЯ МОВИ</div>
+                  <div class="cards__description">
+                    Система постійно оцінює великий діапазон стану бесіди, веде
+                    розмову, майже не відрізняється від людини
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__icon">
+                    <img src="./img/emoji.png" alt="emoji" />
+                  </div>
+                  <div class="cards__title">ОПИТУВАННЯ й АНКЕТУВАННЯ</div>
+                  <div class="cards__description">
+                    Відмінний інструмент для продуктивної, індивідуальної, і,
+                    якщо необхідно, знеособленої роботи з клієнтом
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="_container">
+            <div class="benefits__subtitle">
+              безперечні переваги ЕМЕТА перед живими операторами <span></span>
+            </div>
+            <div class="benefits__cards cards">
+              <div class="cards__wrapper">
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>ДОБРА ПАМ’ЯТЬ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      пам’ятає все, що було сказано у розмові та будує свої
+                      відповіді виходячи з отриманих даних
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>ГЕТЬ ШАБЛОННІСТЬ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      веде нелінійний діалог, відповідаючи на запитання клієнтів
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>ВСЕ СХОПЛЕНО</span></div>
+                  <div class="cards__text-2">
+                    <span>фіксує всю інформацію, отриману від клієнта </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>РОЗУМНА СИСТЕМА</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      навчається при кожному дзвінку, з кожним разом стає ще
+                      розумнішим
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1">
+                    <span>ВИНОСЛИВА РОБОЧА КОНЯЧКА</span>
+                  </div>
+                  <div class="cards__text-2">
+                    <span>
+                      може повністю взяти на себе вхідні та вихідні дзвінки
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>СВОБОДА ПОЛЬОТУ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      приймає та здійснює необмежену кількість дзвінків
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="problems">
+          <div class="_container">
+            <div class="problems__subtitle">
+              які проблеми вирішує <span></span>
+            </div>
+            <div class="problems__cards cards">
+              <div class="cards__wrapper">
+                <div class="cards__body">
+                  <div class="cards__title">Аналіз роботи операторів</div>
+                  <div class="cards__description">
+                    Контролюйте операторів, у розмовах із якими клієнти зазнають
+                    складнощів
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук точок зростання</div>
+                  <div class="cards__description">
+                    Клієнти самі розповідають про свої проблеми та побажання
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук проблемних діалогів</div>
+                  <div class="cards__description">
+                    Знаходьте проблеми за ключовими словами або відхилення
+                    кількісних параметрів від норми
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук проблемних діалогів</div>
+                  <div class="cards__description">
+                    Знаходьте проблеми за ключовими словами або відхилення
+                    кількісних параметрів від норми
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук проблемних діалогів</div>
+                  <div class="cards__description">
+                    Знаходьте проблеми за ключовими словами або відхилення
+                    кількісних параметрів від норми
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук проблемних діалогів</div>
+                  <div class="cards__description">
+                    Знаходьте проблеми за ключовими словами або відхилення
+                    кількісних параметрів від норми
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__title">Пошук проблемних діалогів</div>
+                  <div class="cards__description">
+                    Знаходьте проблеми за ключовими словами або відхилення
+                    кількісних параметрів від норми
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="advantages">
+          <div class="_container">
+            <div class="problems__subtitle">
+              технічні переваги <span></span>
+            </div>
+            <div class="problems__cards cards">
+              <div class="cards__wrapper">
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>МАСШТАБОВАНІСТЬ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      навчається при кожному дзвінку, з кожним разом стає ще
+                      розумнішим
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>НЕЙРОННІ МЕРЕЖІ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      може повністю взяти на себе вхідні та вихідні дзвінки
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>ГНУЧКА ЗВІТНІСТЬ</span></div>
+                  <div class="cards__text-2">
+                    <span>
+                      приймає та здійснює необмежену кількість дзвінків
+                    </span>
+                  </div>
+                </div>
+                <div class="cards__body">
+                  <div class="cards__text-1"><span>ІНТЕГРАЦІЯ</span></div>
+                  <div class="cards__text-2">
+                    <span> з більшістю корпоративних систем </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="buttons">
+          <div class="_container">
+            <div class="buttons__container">
+              <div class="buttons__body">
+                <a href="#sendForm" class="buttons__button-link">замовити послугу</a>
+              </div>
+              <div class="buttons__body">
+                <a href="#sendForm" class="buttons__button-link">уточнити деталі</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form">
+          <div class="_container">
+            <form id="sendForm" action="" class="form__body">
+              <div class="form__content">
+                <div class="form__title">
+                  Ми будемо раді допомогти Вам
+                  <span class="magenta">покращити</span>
+                  <span class="mint">бізнес</span>
+                </div>
+                <div class="form__inputs">
+                  <div class="form__input">
+                    <label for="name">Имя</label>
+                    <input id="name" type="text" />
+                  </div>
+                  <div class="form__input">
+                    <label for="company">Компания</label>
+                    <input id="company" type="text" />
+                  </div>
+                  <div class="form__input">
+                    <label for="phone">Номер телефона</label>
+                    <input id="phone" type="text" />
+                  </div>
+                  <div class="form__input">
+                    <label for="mail">Email</label>
+                    <input id="mail" type="text" />
+                  </div>
+                  <div class="form__question">
+                    <label for="question">Ваш вопрос</label>
+                    <textarea
+                      name="question"
+                      id="question"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="form__submit">
+                <input
+                  type="submit"
+                  class="form__submit-btn"
+                  value="відправити"
+                />
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- <div class="main__img _ibg">
+                <img src="./img/main.png" alt="main img">
+            </div> -->
+      </main>
+      <footer class="footer">
+        <div class="footer__container _container">
+          <div class="footer__logo">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
